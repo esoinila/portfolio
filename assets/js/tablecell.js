@@ -54,15 +54,15 @@ const insertTableCells = () => {
     let innerHtml = '<tbody>';
 
     projectRows.forEach(row => {
-        console.log("Adding row: " + row.name + " innerHtml length is: " + innerHtml.length);
-        innerHtml += '<tr>';
+        //console.log("Adding row: " + row.name + " innerHtml length is: " + innerHtml.length);
+        /*innerHtml += '<tr>';
         innerHtml += '<td class="project-td"><h5 class="table-h5">' + row.name + '</h5></td>'; 
         innerHtml += '<td class="project-td"><h5 class="table-h5">' + row.description + '</h5></td>';
         innerHtml += '</tr>';
+        */
 
-
-        /*innerHtml += '<tr>';
-        innerHtml += '<td class="project-td"><h5 class="table-h5>"' + row.name + '</h5>';
+        innerHtml += '<tr>';
+        innerHtml += '<td class="project-td"><h5 class="table-h5">' + row.name + '</h5>';
 
         innerHtml += '<h5 class="table-h5">Company</h5>';
         innerHtml += '<p class="table-p">' + row.company + '</p>';
@@ -88,7 +88,8 @@ const insertTableCells = () => {
         innerHtml += '<h5 class="table-h5">Tools</h5>';
         innerHtml += '<p class="table-p">' + row.tools + '</p>';
         innerHtml += '</td>';
-        innerHtml += '</tr>';*/
+        innerHtml += '</tr>';
+
     }); 
     innerHtml += '</tbody>';
 
