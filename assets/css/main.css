@@ -41,6 +41,17 @@ footer, header, hgroup, menu, nav, section {
     border: 1px solid black;
 }
 
+.table-h5 {
+	color:#000000;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.table-p {
+	
+	color:#878e83;
+	line-height: 1;
+}
+
 body {
 	line-height: 1;
 }
