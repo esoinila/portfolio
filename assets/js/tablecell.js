@@ -51,10 +51,17 @@ const insertTableCells = () => {
 
     console.log("inserting table cells");
 
-    let innerHtml = '';
+    let innerHtml = '<tbody>';
 
     projectRows.forEach(row => {
+        console.log("Adding row: " + row.name + " innerHtml length is: " + innerHtml.length);
         innerHtml += '<tr>';
+        innerHtml += '<td class="project-td"><h5 class="table-h5">' + row.name + '</h5></td>'; 
+        innerHtml += '<td class="project-td"><h5 class="table-h5">' + row.description + '</h5></td>';
+        innerHtml += '</tr>';
+
+
+        /*innerHtml += '<tr>';
         innerHtml += '<td class="project-td"><h5 class="table-h5>"' + row.name + '</h5>';
 
         innerHtml += '<h5 class="table-h5">Company</h5>';
@@ -81,21 +88,16 @@ const insertTableCells = () => {
         innerHtml += '<h5 class="table-h5">Tools</h5>';
         innerHtml += '<p class="table-p">' + row.tools + '</p>';
         innerHtml += '</td>';
-        innerHtml += '</tr>';
+        innerHtml += '</tr>';*/
     }); 
+    innerHtml += '</tbody>';
+
+    console.log(innerHtml);
+
+
     document.getElementById('rows_start').innerHTML = innerHtml;
 
 }
-
-const people = [
-    { name: 'John', age: 25 },
-    { name: 'Jane', age: 31 },
-    { name: 'Jim', age: 42 }
-  ];
-  
-  people.forEach(person => {
-    console.log(person.name);
-  });
 
 
 insertTableCells();
