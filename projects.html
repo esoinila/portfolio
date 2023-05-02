@@ -5,214 +5,232 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
-	<head>
-		<title>One Column - Minimaxing by HTML5 UP</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-	</head>
-	<body>
-		<div id="page-wrapper">
 
-			<!-- Header -->
-				<div id="header-wrapper">
-					<div class="container">
-						<div class="row">
-							<div class="col-12">
+<head>
+	<title>One Column - Minimaxing by HTML5 UP</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<!-- Include Handlebars from a CDN -->
+	<script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
+	<script>
+		// compile the template
+		var template = Handlebars.compile("Handlebars <b>{{doesWhat}}</b>");
+		// execute the compiled template and print the output to the console
+		console.log(template({ doesWhat: "rocks!" }));
+	</script>
+</head>
 
-								<header id="header">
-									<h1><a href="index.html" id="logo">Minimaxing</a></h1>
-									<nav id="nav">
-										<a href="index.html">Homepage</a>
-										<a href="showcase.html">Showcase</a>
-										<a href="projects.html" class="current-page-item">Projects</a>
-									</nav>
-								</header>
+<body>
+	<div id="page-wrapper">
 
-							</div>
-						</div>
+		<!-- Header -->
+		<div id="header-wrapper">
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+
+						<header id="header">
+							<h1><a href="index.html" id="logo">Minimaxing</a></h1>
+							<nav id="nav">
+								<a href="index.html">Homepage</a>
+								<a href="showcase.html">Showcase</a>
+								<a href="projects.html" class="current-page-item">Projects</a>
+							</nav>
+						</header>
+
 					</div>
 				</div>
-
-			<!-- Main -->
-				<div id="main">
-					<div class="container">
-						<div class="row main-row">
-							<div class="col-12">
-
-								<section>
-									<h2>Projects</h2>
-									<p>Below is a detailed listing of projects in a table.</p>
-								</section>
-								<section>
-									<table class="projects-table">
-										<thead>
-											<tr>
-												<th colspan="2"><h3>Projects</h2></th>
-											</tr>
-										</thead>
-										<tbody>
-											<tr>
-												<td class="project-td">
-													<h4>PROJECT</h4>
-												</td>
-												<td class="project-td">
-													<h4>PROJECT EXPERIENCE</h4>
-												</td>
-											</tr>
-
-
-											<tr>
-												<td class="project-td">
-													<h5 class="table-h5">Project name</h5>
-													<p class="table-p">
-														Re-training Stable diffusion with selfies to produce artificial selfies
-													</p>
-													<h5 class="table-h5">Company</h5>
-													<p class="table-p">Hobby project</p>
-
-													<h5 class="table-h5">Period</h5>
-													<p class="table-p">1/2023 - 1/2023</p>
-
-												</td>
-												<td class="project-td">
-													<h5 class="table-h5">Project experience</h5>
-													<img src="images/deep-selfie.png" alt="sample fake selfie image"></img>
-													<p class="table-p">
-														Re-training stable diffusion 1.5 with own pictures to make realistic fake selfie images.
-														
-													</p>
-													<h5 class="table-h5">Tools:</h5>
-													<p class="table-p">Google Colab, Automatic111, PyTorch, Diffucers-library, GitHub</p>
-
-												</td>
-											</tr>
-
-
-											<tr>
-												<td class="project-td">
-													<h5 class="table-h5">Project name</h5>
-													<p class="table-p">
-														Re-training Stable diffusion with selfies to produce artificial selfies
-													</p>
-													<h5 class="table-h5">Company</h5>
-													<p class="table-p">Hobby project</p>
-
-													<h5 class="table-h5">Period</h5>
-													<p class="table-p">1/2023 - 1/2023</p>
-
-												</td>
-												<td class="project-td">
-													<h5 class="table-h5">Project experience</h5>
-													<img src="images/deep-selfie.png" alt="sample fake selfie image"></img>
-													<p class="table-p">
-														Re-training stable diffusion 1.5 with own pictures to make realistic fake selfie images.
-														
-													</p>
-													<h5 class="table-h5">Tools:</h5>
-													<p class="table-p">Google Colab, Automatic111, PyTorch, Diffucers-library, GitHub</p>
-
-												</td>
-											</tr>
-
-
-
-
-										</tbody>
-									</table>
-								</section>
-
-							</div>
-						</div>
-					</div>
-				</div>
-
-			<!-- Footer -->
-				<div id="footer-wrapper">
-					<div class="container">
-						<div class="row">
-							<div class="col-8 col-12-medium">
-
-								<section>
-									<h2>How about a truckload of links?</h2>
-									<div>
-										<div class="row">
-											<div class="col-3 col-6-medium col-12-small">
-												<ul class="link-list">
-													<li><a href="#">Sed neque nisi consequat</a></li>
-													<li><a href="#">Dapibus sed mattis blandit</a></li>
-													<li><a href="#">Quis accumsan lorem</a></li>
-													<li><a href="#">Suspendisse varius ipsum</a></li>
-													<li><a href="#">Eget et amet consequat</a></li>
-												</ul>
-											</div>
-											<div class="col-3 col-6-medium col-12-small">
-												<ul class="link-list">
-													<li><a href="#">Quis accumsan lorem</a></li>
-													<li><a href="#">Sed neque nisi consequat</a></li>
-													<li><a href="#">Eget et amet consequat</a></li>
-													<li><a href="#">Dapibus sed mattis blandit</a></li>
-													<li><a href="#">Vitae magna sed dolore</a></li>
-												</ul>
-											</div>
-											<div class="col-3 col-6-medium col-12-small">
-												<ul class="link-list">
-													<li><a href="#">Sed neque nisi consequat</a></li>
-													<li><a href="#">Dapibus sed mattis blandit</a></li>
-													<li><a href="#">Quis accumsan lorem</a></li>
-													<li><a href="#">Suspendisse varius ipsum</a></li>
-													<li><a href="#">Eget et amet consequat</a></li>
-												</ul>
-											</div>
-											<div class="col-3 col-6-medium col-12-small">
-												<ul class="link-list">
-													<li><a href="#">Quis accumsan lorem</a></li>
-													<li><a href="#">Sed neque nisi consequat</a></li>
-													<li><a href="#">Eget et amet consequat</a></li>
-													<li><a href="#">Dapibus sed mattis blandit</a></li>
-													<li><a href="#">Vitae magna sed dolore</a></li>
-												</ul>
-											</div>
-										</div>
-									</div>
-								</section>
-
-							</div>
-							<div class="col-4 col-12-medium">
-
-								<section>
-									<h2>Something of interest</h2>
-									<p>Duis neque nisi, dapibus sed mattis quis, rutrum accumsan sed.
-									Suspendisse eu varius nibh. Suspendisse vitae magna eget odio amet
-									mollis justo facilisis quis. Sed sagittis mauris amet tellus gravida
-									lorem ipsum dolor sit blandit.</p>
-									<footer class="controls">
-										<a href="#" class="button">Oh, please continue ....</a>
-									</footer>
-								</section>
-
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-12">
-
-								<div id="copyright">
-									&copy; Untitled. All rights reserved. | Design: <a href="http://html5up.net">HTML5 UP</a>
-								</div>
-
-							</div>
-						</div>
-					</div>
-				</div>
-
+			</div>
 		</div>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+		<!-- Main -->
+		<div id="main">
+			<div class="container">
+				<div class="row main-row">
+					<div class="col-12">
 
-	</body>
+						<section>
+							<h2>Projects</h2>
+							<p>Below is a detailed listing of projects in a table.</p>
+						</section>
+						<section>
+							<table class="projects-table">
+								<thead>
+									<tr>
+										<th colspan="2">
+											<h3>Projects</h2>
+										</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td class="project-td">
+											<h4>PROJECT</h4>
+										</td>
+										<td class="project-td">
+											<h4>PROJECT EXPERIENCE</h4>
+										</td>
+									</tr>
+
+
+									<tr>
+										<td class="project-td">
+											<h5 class="table-h5">Project name</h5>
+											<p class="table-p">
+												Re-training Stable diffusion with selfies to produce artificial selfies
+											</p>
+											<h5 class="table-h5">Company</h5>
+											<p class="table-p">Hobby project</p>
+
+											<h5 class="table-h5">Period</h5>
+											<p class="table-p">1/2023 - 1/2023</p>
+
+										</td>
+										<td class="project-td">
+											<h5 class="table-h5">Project experience</h5>
+											<img src="images/deep-selfie.png" alt="sample fake selfie image"></img>
+											<p class="table-p">
+												Re-training stable diffusion 1.5 with own pictures to make realistic
+												fake selfie images.
+
+											</p>
+											<h5 class="table-h5">Tools:</h5>
+											<p class="table-p">Google Colab, Automatic111, PyTorch, Diffucers-library,
+												GitHub</p>
+
+										</td>
+									</tr>
+
+
+									<tr>
+										<td class="project-td">
+											<h5 class="table-h5">Project name</h5>
+											<p class="table-p">
+												Re-training Stable diffusion with selfies to produce artificial selfies
+											</p>
+											<h5 class="table-h5">Company</h5>
+											<p class="table-p">Hobby project</p>
+
+											<h5 class="table-h5">Period</h5>
+											<p class="table-p">1/2023 - 1/2023</p>
+
+										</td>
+										<td class="project-td">
+											<h5 class="table-h5">Project experience</h5>
+											<img src="images/deep-selfie.png" alt="sample fake selfie image"></img>
+											<p class="table-p">
+												Re-training stable diffusion 1.5 with own pictures to make realistic
+												fake selfie images.
+
+											</p>
+											<h5 class="table-h5">Tools:</h5>
+											<p class="table-p">Google Colab, Automatic111, PyTorch, Diffucers-library,
+												GitHub</p>
+
+										</td>
+									</tr>
+
+
+
+
+								</tbody>
+							</table>
+						</section>
+
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Footer -->
+		<div id="footer-wrapper">
+			<div class="container">
+				<div class="row">
+					<div class="col-8 col-12-medium">
+
+						<section>
+							<h2>How about a truckload of links?</h2>
+							<div>
+								<div class="row">
+									<div class="col-3 col-6-medium col-12-small">
+										<ul class="link-list">
+											<li><a href="#">Sed neque nisi consequat</a></li>
+											<li><a href="#">Dapibus sed mattis blandit</a></li>
+											<li><a href="#">Quis accumsan lorem</a></li>
+											<li><a href="#">Suspendisse varius ipsum</a></li>
+											<li><a href="#">Eget et amet consequat</a></li>
+										</ul>
+									</div>
+									<div class="col-3 col-6-medium col-12-small">
+										<ul class="link-list">
+											<li><a href="#">Quis accumsan lorem</a></li>
+											<li><a href="#">Sed neque nisi consequat</a></li>
+											<li><a href="#">Eget et amet consequat</a></li>
+											<li><a href="#">Dapibus sed mattis blandit</a></li>
+											<li><a href="#">Vitae magna sed dolore</a></li>
+										</ul>
+									</div>
+									<div class="col-3 col-6-medium col-12-small">
+										<ul class="link-list">
+											<li><a href="#">Sed neque nisi consequat</a></li>
+											<li><a href="#">Dapibus sed mattis blandit</a></li>
+											<li><a href="#">Quis accumsan lorem</a></li>
+											<li><a href="#">Suspendisse varius ipsum</a></li>
+											<li><a href="#">Eget et amet consequat</a></li>
+										</ul>
+									</div>
+									<div class="col-3 col-6-medium col-12-small">
+										<ul class="link-list">
+											<li><a href="#">Quis accumsan lorem</a></li>
+											<li><a href="#">Sed neque nisi consequat</a></li>
+											<li><a href="#">Eget et amet consequat</a></li>
+											<li><a href="#">Dapibus sed mattis blandit</a></li>
+											<li><a href="#">Vitae magna sed dolore</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</section>
+
+					</div>
+					<div class="col-4 col-12-medium">
+
+						<section>
+							<h2>Something of interest</h2>
+							<p>Duis neque nisi, dapibus sed mattis quis, rutrum accumsan sed.
+								Suspendisse eu varius nibh. Suspendisse vitae magna eget odio amet
+								mollis justo facilisis quis. Sed sagittis mauris amet tellus gravida
+								lorem ipsum dolor sit blandit.</p>
+							<footer class="controls">
+								<a href="#" class="button">Oh, please continue ....</a>
+							</footer>
+						</section>
+
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-12">
+
+						<div id="copyright">
+							&copy; Untitled. All rights reserved. | Design: <a href="http://html5up.net">HTML5 UP</a>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+	<script src="assets/js/tablecell.js"></script>
+
+</body>
+
 </html>
