@@ -49,17 +49,12 @@ const projectRows = [
 
 const insertTableCells = () => {
 
-    console.log("inserting table cells");
+    //console.log("inserting table cells");
 
     let innerHtml = '<tbody>';
 
     projectRows.forEach(row => {
         //console.log("Adding row: " + row.name + " innerHtml length is: " + innerHtml.length);
-        /*innerHtml += '<tr>';
-        innerHtml += '<td class="project-td"><h5 class="table-h5">' + row.name + '</h5></td>'; 
-        innerHtml += '<td class="project-td"><h5 class="table-h5">' + row.description + '</h5></td>';
-        innerHtml += '</tr>';
-        */
 
         innerHtml += '<tr>';
         innerHtml += '<td class="project-td"><h5 class="table-h5">' + row.name + '</h5>';
@@ -80,7 +75,7 @@ const insertTableCells = () => {
         innerHtml += '<p class="table-p">' + row.description;
 
         if(row.link != ""){
-            innerHtml += '<a href="' + row.link + '" class="button">Link</a>';
+            innerHtml += '<a href="' + row.link + '"> Link </a>';
         }
         innerHtml += '</p>';
 
@@ -93,7 +88,7 @@ const insertTableCells = () => {
     }); 
     innerHtml += '</tbody>';
 
-    console.log(innerHtml);
+    //console.log(innerHtml);
 
 
     document.getElementById('rows_start').innerHTML = innerHtml;
@@ -104,33 +99,3 @@ const insertTableCells = () => {
 insertTableCells();
 
 
-/*
-                                    <tr>
-                                        <td class="project-td">
-                                            <h5 class="table-h5">Project name</h5>
-                                            <p class="table-p">
-                                                Re-training Stable diffusion with selfies to produce artificial selfies
-                                            </p>
-                                            <h5 class="table-h5">Company</h5>
-                                            <p class="table-p">Hobby project</p>
-
-                                            <h5 class="table-h5">Period</h5>
-                                            <p class="table-p">1/2023 - 1/2023</p>
-
-                                        </td>
-                                        <td class="project-td">
-                                            <h5 class="table-h5">Project experience</h5>
-                                            <img src="images/deep-selfie.png" alt="sample fake selfie image"></img>
-                                            <p class="table-p">
-                                                Re-training stable diffusion 1.5 with own pictures to make realistic
-                                                fake selfie images.
-
-                                            </p>
-                                            <h5 class="table-h5">Tools:</h5>
-                                            <p class="table-p">Google Colab, Automatic111, PyTorch, Diffucers-library,
-                                                GitHub</p>
-
-                                        </td>
-                                    </tr>
-
-*/
