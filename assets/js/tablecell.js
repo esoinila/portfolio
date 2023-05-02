@@ -53,7 +53,7 @@ const insertTableCells = () => {
 
     let innerHtml = '';
 
-    projectRows.foreach(row => {
+    projectRows.forEach(row => {
         innerHtml += '<tr>';
         innerHtml += '<td class="project-td"><h5 class="table-h5>"' + row.name + '</h5>';
 
@@ -87,8 +87,19 @@ const insertTableCells = () => {
 
 }
 
+const people = [
+    { name: 'John', age: 25 },
+    { name: 'Jane', age: 31 },
+    { name: 'Jim', age: 42 }
+  ];
+  
+  people.forEach(person => {
+    console.log(person.name);
+  });
+
 
 insertTableCells();
+
 
 /*
                                     <tr>
