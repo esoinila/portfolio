@@ -28,6 +28,19 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
+
+.projects-table {
+	width: 90%;
+	border-collapse: collapse;
+	border-spacing: 5%;
+	border: 1px solid #000000;
+
+}
+
+.project-td, .project-th {
+    border: 1px solid black;
+}
+
 body {
 	line-height: 1;
 }
