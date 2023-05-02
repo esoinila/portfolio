@@ -2,7 +2,7 @@
 
 const projectRows = [
     {
-        "name": "Re-training Stable diffusion with selfies to produce selfie",
+        "name": "Re-training Stable diffusion with selfies to produce selfies",
         "company": "Hobby project",
         "customer": "Customer 1",
         "period": "2019-2020",
