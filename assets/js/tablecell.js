@@ -254,6 +254,45 @@ const projectRows = [
         "image_src": "",
         "link": "",
     },
+    {
+        "name": "Softability SLUSH demo",
+        "company": "Softability Oy",
+        "customer": "",
+        "period": "Several weeks before Slush 2017",
+        "description": "Vuforia image recognition of circuit board adds information about circuit board when circuit board is recognized. On HMT-1 glasses uses audio commands.",
+        "tools": "Unity3D(C#), Vuforia, Android Studio, Visual Studio, Git",
+        "role": "",
+        "responsibilityareas": "",
+        "image_src": "",
+        "link": "",
+    },
+
+    {
+        "name": "Industrial Equipment manufacturer AR project",
+        "company": "Softability Oy",
+        "customer": "Global vertical people moving equipment manufacturer",
+        "period": "3/2017",
+        "description": "Integrating Augmented Reality into maintenance.",
+        "tools": "Unity3D(C#), Android Studio, Visual Studio, Git",
+        "role": "",
+        "responsibilityareas": "Developing UI experience",
+        "image_src": "",
+        "link": "",
+    },
+    {
+        "name": "HummCar",
+        "company": "Indie iOS AppStore published game",
+        "customer": "",
+        "period": "4/2015 - 3/2017",
+        "description": "Study of using human voice humming as an input method for a ScalexTrix-like car racing game. The 3D game was available in Apple App Store. Link to video of the game being played: ",
+        "tools": "Unity3D(C#), XCode, OneSignal, Android Studio, Visual Studio, Git",
+        "role": "Everything except music and some graphics",
+        "responsibilityareas": "",
+        "image_src": "images/hummcar.png",
+        "link": "https://drive.google.com/file/d/1bXvZ7NdEfqYenoIbnua3qfu9cmcuvFx8/view?usp=sharing",
+    },
+
+
 
 
 
