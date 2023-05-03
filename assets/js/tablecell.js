@@ -83,12 +83,12 @@ const projectRows = [
         "company": "Softability",
         "customer": "Large Global Company",
         "period": "1/2020 – 3/2021",
-        "description": "C# Desktop App maintenance and development for actively used global spare part management software. Software is used to manage spare parts for large industrial machinery. Software is used by customer company and their customers. Software is used to manage spare parts for large industrial machinery.",
-        "tools": "Unity3D ML-Agents, Tensorflow on PC (Anaconda / Jupyter Notebook).",
-        "role": "",
+        "description": "C# Desktop app maintenance and development for actively used global spare part management software. Software is used to manage spare parts for some of the largest industrial machinery in the world.",
+        "tools": "Visual Studio, C#, git",
+        "role": "Front-end developer (only one)",
         "responsibilityareas": "",
         "image_src": "",
-        "link": "https://www.linkedin.com/feed/update/urn:li:activity:6735863576419946496?updateEntityUrn=urn%3Ali%3Afs_feedUpdate%3A%28V2%2Curn%3Ali%3Aactivity%3A6735863576419946496%29&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3B%2FErp%2F9rHRVWCwiNZ7xZWHQ%3D%3D",
+        "link": "",
     },
 
 
@@ -96,36 +96,23 @@ const projectRows = [
         "name": "VR-assembly and machine use training demo",
         "company": "Softability Oy",
         "customer": "",
-        "period": "2/2020 – 3/2020",
-        "description": "Combining Unity3D library with Python TensorFlow to have AI agent learn by experience i.e. trial and error inside artificial 3D world. One on a plane, two mobile artillery pieces move and shoot each other with indirect fire. Second with Keplerian orbits, where ML-Agents learn to navigate in space by trial and error with realistic space physics. Here the grid data is used to visualize acceleration vectors in space for UI purposes.",
-        "tools": "Unity3D ML-Agents, Tensorflow on PC (Anaconda / Jupyter Notebook).",
-        "role": "",
+        "period": "12/2019",
+        "description": "Assemble MoccaMaster Coffeemaker in virtual reality and make virtual coffee with it using Oculus Quest-VR-glasses",
+        "tools": "Unity coding on PC and deploying to Oculus Quest-VR-glasses",
+        "role": "Senior Software Developer",
         "responsibilityareas": "",
         "image_src": "",
-        "link": "https://www.linkedin.com/feed/update/urn:li:activity:6735863576419946496?updateEntityUrn=urn%3Ali%3Afs_feedUpdate%3A%28V2%2Curn%3Ali%3Aactivity%3A6735863576419946496%29&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3B%2FErp%2F9rHRVWCwiNZ7xZWHQ%3D%3D",
+        "link": "",
     },
-
-
-
 ]
 
-
-
-
 const insertTableCells = () => {
-
-    //console.log("inserting table cells");
-
     let innerHtml = '<tbody>';
 
     projectRows.forEach(row => {
-        //console.log("Adding row: " + row.name + " innerHtml length is: " + innerHtml.length);
-
         innerHtml += '<tr>';
-
         innerHtml += '<td class="project-td">';
         innerHtml += '<h5 class="table-h5">Name</h5> <p class="table-p">' + row.name + '</p>';
-
         innerHtml += '<h5 class="table-h5">Company</h5>';
         innerHtml += '<p class="table-p">' + row.company + '</p>';
 
@@ -133,15 +120,11 @@ const insertTableCells = () => {
             innerHtml += '<h5 class="table-h5">Customer</h5>';
             innerHtml += '<p class="table-p">' + row.customer + '</p>';
         }
-
         innerHtml += '<h5 class="table-h5">Period</h5>';
         innerHtml += '<p class="table-p">' + row.period + '</p>';
         innerHtml += '</td>';
-
         innerHtml += '<td class="project-td">';
         innerHtml += '<h5 class="table-h5">Project experience</h5>';
-        
-        
         innerHtml += '<p class="table-p">' + row.description;
 
         if(row.link != ""){
@@ -152,23 +135,14 @@ const insertTableCells = () => {
         if(row.image_src != ""){
             innerHtml += '<img class="table-image" src="' + row.image_src + '" alt="related image"></img>';
         }
-
-
         innerHtml += '<h5 class="table-h5">Tools</h5>';
         innerHtml += '<p class="table-p">' + row.tools + '</p>';
         innerHtml += '</td>';
         innerHtml += '</tr>';
-
     }); 
     innerHtml += '</tbody>';
-
-    //console.log(innerHtml);
-
-
     document.getElementById('rows_start').innerHTML = innerHtml;
-
 }
-
 
 insertTableCells();
 
