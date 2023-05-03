@@ -51,6 +51,9 @@ footer, header, hgroup, menu, nav, section {
 	color:#878e83;
 	line-height: 1;
 }
+.table-image{
+	max-width: 30%;
+}
 
 body {
 	line-height: 1;
