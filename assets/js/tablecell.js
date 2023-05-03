@@ -206,6 +206,55 @@ const projectRows = [
         "image_src": "",
         "link": "",
     },
+    {
+        "name": "WebRTC related project",
+        "company": "Softability Oy",
+        "customer": "Global Mining Technology Company",
+        "period": "3/2018",
+        "description": "Research for call notification architecture for multiplatform (PC, iOS, Android) product.",
+        "tools": "Unity3D(C#), XCode, OneSignal, Android Studio, Visual Studio, Git",
+        "role": "",
+        "responsibilityareas": "Research and demo",
+        "image_src": "",
+        "link": "",
+    },
+    {
+        "name": "Tehomet AR project",
+        "company": "Softability Oy",
+        "customer": "Tehomet",
+        "period": "sometime during 2017",
+        "description": "A lighting pole AR demonstration program on iOS.",
+        "tools": "Unity3D(C#), XCode, OneSignal, Android Studio, Visual Studio, Git",
+        "role": "Senior Software Developer",
+        "responsibilityareas": "",
+        "image_src": "",
+        "link": "",
+    },
+    {
+        "name": "Free-time AR-Basketball game",
+        "company": "Hobby game project",
+        "customer": "",
+        "period": "Random free time moments 2017 & 2018",
+        "description": "Place a basketball hoop and throw basketballs into it. Many similar ones in AppStore, so this one still needs more development to stand out somehow.",
+        "tools": "Unity3D(C#), XCode, OneSignal, Android Studio, Visual Studio, Git",
+        "role": "Senior Software Developer",
+        "responsibilityareas": "",
+        "image_src": "",
+        "link": "",
+    },
+    {
+        "name": "WebRTC related project",
+        "company": "Softability Oy",
+        "customer": "Global Mining Technology Company",
+        "period": "Some months during 2017",
+        "description": "WebRTC plugin for Unity3D iOS-development.",
+        "tools": "Unity3D(C#), XCode, ObjectiveC, Visual Studio, Git",
+        "role": "",
+        "responsibilityareas": "Research and development",
+        "image_src": "",
+        "link": "",
+    },
+
 
 
 
@@ -240,6 +289,14 @@ const insertTableCells = () => {
         if(row.image_src != ""){
             innerHtml += '<img class="table-image" src="' + row.image_src + '" alt="related image"></img>';
         }
+
+        if(row.role != ""){
+            innerHtml += '<h5 class="table-h5">Role</h5>';
+            innerHtml += '<p class="table-p">' + row.role + '</p>';
+        }
+
+
+
         innerHtml += '<h5 class="table-h5">Tools</h5>';
         innerHtml += '<p class="table-p">' + row.tools + '</p>';
 
