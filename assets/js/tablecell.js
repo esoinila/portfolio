@@ -291,6 +291,18 @@ const projectRows = [
         "image_src": "images/hummcar.png",
         "link": "https://drive.google.com/file/d/1bXvZ7NdEfqYenoIbnua3qfu9cmcuvFx8/view?usp=sharing",
     },
+    {
+        "name": "Pilvisanakoe",
+        "company": "",
+        "customer": "Various teachers at Saarnilaakso School",
+        "period": "9/2012 - 12/2014",
+        "description": "Cloud data-based word test / learning solution. Both for website and iOS devices. Material can be created from mobile devices.  ",
+        "tools": "Unity3D(C#), XCode, OneSignal, Android Studio, Visual Studio, Git",
+        "role": "Unity3D coding",
+        "responsibilityareas": "",
+        "image_src": "images/pilvisanakoe.png",
+        "link": "https://youtu.be/aw-tK9XCiKc",
+    },
 
 
 
