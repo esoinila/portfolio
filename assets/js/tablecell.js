@@ -96,7 +96,7 @@ const projectRows = [
         "name": "VR-assembly and machine use training demo",
         "company": "Softability Oy",
         "customer": "",
-        "period": "12/2019",
+        "period": "12/2019 – 1/2020",
         "description": "Assemble MoccaMaster Coffeemaker in virtual reality and make virtual coffee with it using Oculus Quest-VR-glasses",
         "tools": "Unity coding on PC and deploying to Oculus Quest-VR-glasses",
         "role": "Senior Software Developer",
@@ -104,6 +104,111 @@ const projectRows = [
         "image_src": "",
         "link": "",
     },
+
+    {
+        "name": "ARKit 3.0 trade show demo",
+        "company": "Softability Oy",
+        "customer": "Large industrial outdoor light manufacturer",
+        "period": "11/2019 – 1/2020",
+        "description": "Customer product portfolio presentation using ARKit 3 with multiple users. Different viewers see and can interact with shared added reality objects to select product options in a try-before-buy type of scenario.",
+        "tools": "Unity coding on Mac with iPhone & iPad deployment, XCode for installing onto device.",
+        "role": "Senior Software Developer",
+        "responsibilityareas": "",
+        "image_src": "",
+        "link": "",
+    },
+
+    {
+        "name": "ARKit 3.0 Sales support demo",
+        "company": "Softability Oy",
+        "customer": "Global heavy industry manufacturer",
+        "period": "12/2019 – 1/2020",
+        "description": "Customer product portfolio presentation using ARKit 3 with multiple users. Different viewers see the forklift and can interact with shared added reality objects to select product options in a try-before-buy type of scenario.",
+        "tools": "Unity coding on Mac with iPhone & iPad deployment, XCode for installing onto device.",
+        "role": "Senior Software Developer",
+        "responsibilityareas": "",
+        "image_src": "",
+        "link": "",
+    },
+
+    {
+        "name": "Demo application for Android Smart-glasses HMT-1 Realwear",
+        "company": "Softability Oy",
+        "customer": "Pyylahti",
+        "period": "8/2019 – 9/2019",
+        "description": "Exhibition demo about using smart-glasses to set up explosions in urban areas with smart detonators (for construction purposes).",
+        "tools": "Unity coding on Mac with iPhone & iPad deployment, XCode for installing onto device.",
+        "role": "Senior Software Developer",
+        "responsibilityareas": "Technical implementation (Unity coding)",
+        "image_src": "",
+        "link": "",
+    },
+
+    {
+        "name": "UI for autonomously moving huge floating objects",
+        "company": "Softability Oy",
+        "customer": "Global British company in aviation and maritime industries",
+        "period": "1/2019 – 7/2019",
+        "description": "Autonomously moving objects need UI to display the result of sensor fusion to the user/users.",
+        "tools": "Unity coding on Mac with iPhone & iPad deployment, XCode for installing onto device.",
+        "role": "Senior Software Developer",
+        "responsibilityareas": "<ul class='table-ul'><li>Coding / development for the Unity UI</li><li>Participating in architecture decisions</li></ul>",
+        "image_src": "",
+        "link": "",
+    },
+
+    {
+        "name": "HoloLens demo for Dynamics 365",
+        "company": "Softability Oy",
+        "customer": "Arrow / Microsoft",
+        "period": "10/2018 – 12/2018",
+        "description": "HoloLens data visualization for remote maintenance use case demonstration in Microsoft demo-rooms.",
+        "tools": "Unity coding on Mac with iPhone & iPad deployment, XCode for installing onto device.",
+        "role": "Senior Software Developer",
+        "responsibilityareas": "<ul class='table-ul'><li>Coding / development for the Unity AR side on HoloLens</li><li>On site demo showcasing and tuning</li></ul>",
+        "image_src": "",
+        "link": "",
+    },
+
+    {
+        "name": "ARKit 2.0 3D object position and orientation recognizer and scanner demo",
+        "company": "Softability Oy",
+        "customer": "",
+        "period": "7/2018 – 9/2018",
+        "description": "Testing of ARKit 2.0 (beta) technology, especially 3D object recognition and scanning for later recognition.",
+        "tools": "For natiove iOS, Swift on Xcode 10(beta). For Unity3D (Visual Studio / C#). running on iOS12 (beta). For Unity3D using the ARKit unity plugin (beta).",
+        "role": "Senior Software Developer",
+        "responsibilityareas": "<ul class='table-ul'><li>For Unity versions testing the recognition of own scanned multiple objects with a simple test app</li><li>For native iOS(Swift) adding multiple object recognition capability and storage onto Apple provided single-scan-recognizing-swift-sample app. Also added user provided description and UI to it using auto layout on storyboard in Xcode.</li></ul>",
+        "image_src": "",
+        "link": "",
+    },
+    {
+        "name": "Inertial Navigation System using Suunto MoveSense IMU",
+        "company": "Softability Oy",
+        "customer": "Global Mining Technology Company",
+        "period": "04/2018 – 06/2018",
+        "description": "Inertial navigation system is used to calculate user position based on accumulated user movements when normal open-sky-methods are not available.",
+        "tools": "For natiove iOS, Swift on Xcode 10(beta). For Unity3D (Visual Studio / C#). running on iOS12 (beta). For Unity3D using the ARKit unity plugin (beta).",
+        "role": "Senior Software Developer",
+        "responsibilityareas": "<ul class='table-ul'><li>Collecting the IoT data from the device and sending it to be analyzed in the cloud.</li><li>Database API is used to collect all users data and provide it to 3D VR mobile UI</li><li>Unity3D version of step quaternion sender</li><li>Native Java version step quaternion sender</li></ul>",
+        "image_src": "",
+        "link": "",
+    },
+    {
+        "name": "X-Reality Workshop",
+        "company": "Softability Oy",
+        "customer": "IT-startup digitalizing construction sites",
+        "period": "1/2018 – 3/2018",
+        "description": "Testing client relevant technologies: mobile browser AR, 3D-meshes from camera-drone photogrammetry, deep learning. Included a full-stack demo with mobile browser client & deep learning REST backend for image recognition.",
+        "tools": "For natiove iOS, Swift on Xcode 10(beta). For Unity3D (Visual Studio / C#). running on iOS12 (beta). For Unity3D using the ARKit unity plugin (beta).",
+        "role": "",
+        "responsibilityareas": "",
+        "image_src": "",
+        "link": "",
+    },
+
+
+
 ]
 
 const insertTableCells = () => {
@@ -137,6 +242,12 @@ const insertTableCells = () => {
         }
         innerHtml += '<h5 class="table-h5">Tools</h5>';
         innerHtml += '<p class="table-p">' + row.tools + '</p>';
+
+        if(row.responsibilityareas != ""){
+            innerHtml += '<h5 class="table-h5">Responsibility areas</h5>';
+            innerHtml += '<p class="table-p">' + row.responsibilityareas + '</p>';
+        }
+
         innerHtml += '</td>';
         innerHtml += '</tr>';
     }); 
