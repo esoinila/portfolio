@@ -352,6 +352,31 @@ const projectRows = [
         "image_src": "",
         "link": "",
     },
+    {
+        "name": "STARAOKE",
+        "company": "Elmorex",
+        "customer": "Intervisio",
+        "period": "11/2001 - 1/2003",
+        "description": "Singing game and Emmy award winning TV-format based on it. ",
+        "tools": "Visual Studio / C++ / Windows",
+        "role": "Separating the ready made singing game from a previous product into the Staraoke Game Product. Adding one height level to the schrolling graphics. ",
+        "responsibilityareas": "",
+        "image_src": "",
+        "link": "",
+    },
+    {
+        "name": "Soittopeli / PlaySingMusic",
+        "company": "Elmorex",
+        "customer": "",
+        "period": "11/1997 - 1/2002",
+        "description": "Musical edutainment game with 3 accompaniment orchestras and 3 sub games. The Forest, Undersea and Space orchestras accompanimented the players melody note with two accompaniment notes selected by neural network. The games could be played with musical instruments (pitch detection). One of the sub-games was the singing game that was separated into the TV-format Staraoke. ",
+        "tools": "Visual Studio / C++ / Windows",
+        "role": "Head programmer, UI-coding and combining all the C++ parts of the application into one project. Tirelesly promoting / evangelicising the idea of making a singing game until we got permission to do it. Rumour is that the excited bear character is based on me.",
+        "responsibilityareas": "",
+        "image_src": "images/soittopeli.png",
+
+        "link": "images/HS2001.pdf",
+    },
 
 
 
