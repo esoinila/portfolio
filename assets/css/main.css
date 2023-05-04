@@ -38,6 +38,11 @@ footer, header, hgroup, menu, nav, section {
 	margin-top: 5%;
 }
 
+.showcase-img{
+	max-width: 60%;
+	height: auto;
+}
+
 .table-h5 {
 	color:#000000;
 	padding-top: 5px;
