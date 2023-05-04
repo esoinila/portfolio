@@ -42,6 +42,10 @@ footer, header, hgroup, menu, nav, section {
 	max-width: 60%;
 	height: auto;
 }
+.showcase-box{
+	max-width: 60%;
+	height: auto;	
+}
 
 .table-h5 {
 	color:#000000;
@@ -87,6 +91,8 @@ footer, header, hgroup, menu, nav, section {
 	box-shadow: inset 0px 0px 0px 1px #18a8c8;
 
 }
+
+
 
 body {
 	line-height: 1;
