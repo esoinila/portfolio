@@ -45,11 +45,21 @@ footer, header, hgroup, menu, nav, section {
 	color:#000000;
 	padding-top: 5px;
 	padding-bottom: 5px;
-}
+	padding-left: 1%;}
 .table-p {
 	
 	color:#878e83;
 	line-height: 1;
+	padding-left: 1.5%;
+}
+.table-image{
+	max-width: 30%;
+	padding-left: 1.5%;
+}
+
+.table-ul{
+	list-style-type:circle;
+	padding-left: 4%;
 }
 
 body {
