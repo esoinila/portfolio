@@ -34,6 +34,9 @@ footer, header, hgroup, menu, nav, section {
 .project-td, .project-th {
     border: 1px solid black;
 }
+.video-p{
+	margin-top: 5%;
+}
 
 .table-h5 {
 	color:#000000;
