@@ -52,13 +52,25 @@ footer, header, hgroup, menu, nav, section {
 	min-height: 192px;	
 }
 .swiper-container{
-	max-width: 60%;
+	max-width: 512px;
 	max-height: auto;	
 	min-width: 256px;
-	margin-left: 0%;
-	
-	
+	margin-left: 0%;	
 }
+.swiper {
+	min-width: 256px;
+	min-height: 256px;
+	max-width: 512px;
+	max-height: 512px;
+
+	padding-left: 1.5%;
+	margin-left: 1%;
+  }
+.swiperImage{
+	max-width: 512px;
+	max-height: 512px;
+}
+
 
 
 .table-h5 {
@@ -82,19 +94,6 @@ footer, header, hgroup, menu, nav, section {
 	padding-left: 4%;
 }
 
-.swiper {
-	min-width: 256px;
-	min-height: 256px;
-	max-width: 512px;
-	max-height: 512px;
-
-	padding-left: 1.5%;
-	margin-left: 1%;
-  }
-.swiperImage{
-	max-width: 512px;
-	max-height: 512px;
-}
 
 .landing-page-button{
 	margin-top:1%;
