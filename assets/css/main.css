@@ -83,8 +83,11 @@ footer, header, hgroup, menu, nav, section {
 }
 
 .swiper {
-	width: 512px;
-	height: 512px;
+	min-width: 256px;
+	min-height: 256px;
+	max-width: 512px;
+	max-height: 512px;
+
 	padding-left: 1.5%;
 	margin-left: 1%;
   }
