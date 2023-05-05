@@ -68,6 +68,25 @@ footer, header, hgroup, menu, nav, section {
 	padding-left: 4%;
 }
 
+.swiper {
+	width: 512px;
+	height: 512px;
+	padding-left: 1.5%;
+	margin-left: 1%;
+  }
+.swiperImage{
+	width: 512px;
+	height: 512px;
+}
+.swiper-container{
+	margin-left: 1.5%;
+	width: 512px;
+	max-width: 100%;
+	height: 512px;
+	background-color: #000;
+	color: #fff;
+}
+
 .landing-page-button{
 	margin-top:1%;
 	margin-bottom: 1%;
