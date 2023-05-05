@@ -7,6 +7,7 @@
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	<link rel="stylesheet" href="assets/css/main.css" />
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
 </head>
 
 <body>
@@ -42,33 +43,41 @@
 							<h2>Memorable videos and images</h2>
 
 							<p class="video-p">
-								Here is 3D pointcloud that was calculated from distance matrices with Python Scikit-learn
-								MDS algorithm. Here is a link to the  
-								<a href="https://medium.com/mlearning-ai/visualizing-3d-data-from-point-distance-information-with-mds-algorithm-in-python-e413c8d28631#e2e4-5ec3e29e34a4">
-									article about the details.</a> The information of the point coordinates is recovered with linear algebra just 
-									from the distances between the points. This kind of methods can be useful for indoor navigation solutions, where 
-									the distances can be between sensors.
+								Here is 3D pointcloud that was calculated from distance matrices with Python
+								Scikit-learn
+								MDS algorithm. Here is a link to the
+								<a
+									href="https://medium.com/mlearning-ai/visualizing-3d-data-from-point-distance-information-with-mds-algorithm-in-python-e413c8d28631#e2e4-5ec3e29e34a4">
+									article about the details.</a> The information of the point coordinates is recovered
+								with linear algebra just
+								from the distances between the points. This kind of methods can be useful for indoor
+								navigation solutions, where
+								the distances can be between sensors.
 
 							</p>
-							<img class="showcase-box" src="images/3D_point_cloud.gif" alt="pointcloud" width="560" height="315">
+							<img class="showcase-box" src="images/3D_point_cloud.gif" alt="pointcloud" width="560"
+								height="315">
 
 
 							<p class="video-p">
 								Here is a play-view of Hummcar AppStore published game. The game is controlled by audio
 								pitch only.
-								Custom coded pitch-detection (generalized autocorrelation) algorithm moves the black needle. 
+								Custom coded pitch-detection (generalized autocorrelation) algorithm moves the black
+								needle.
 								Hitting the green-trinagle accelerates
 								and hitting the red triangle decelerates the car. Gears are changed by hitting the blue
 								triangle.
 								AI handles steering to stay on the track. The game was made with Unity3D game engine and
 								graphics were made with Blender and Gimp.
 
-								It was discovered that humming can be used to control accurately as an user-interface method 
+								It was discovered that humming can be used to control accurately as an user-interface
+								method
 								even in quickly changing situations. This might be handy for handicapped people.
 							</p>
 
-							<iframe class="showcase-box" width="560" height="315" src="https://www.youtube.com/embed/Z4QsPEvo2Zk"
-								title="YouTube video player" frameborder="0"
+							<iframe class="showcase-box" width="560" height="315"
+								src="https://www.youtube.com/embed/Z4QsPEvo2Zk" title="YouTube video player"
+								frameborder="0"
 								allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
 								allowfullscreen></iframe>
 
@@ -79,8 +88,9 @@
 								Meshroom software was used to produce 3D model that was imported to Blender for
 								rendering.
 							</p>
-							<iframe class="showcase-box" width="560" height="315" src="https://www.youtube.com/embed/E9tGisxAvQs"
-								title="YouTube video player" frameborder="0"
+							<iframe class="showcase-box" width="560" height="315"
+								src="https://www.youtube.com/embed/E9tGisxAvQs" title="YouTube video player"
+								frameborder="0"
 								allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
 								allowfullscreen></iframe>
 
@@ -92,8 +102,9 @@
 								produced with with photogrammetry.
 							</p>
 
-							<iframe width="560" class="showcase-box" height="315" src="https://www.youtube.com/embed/7NBoqxUHFrE"
-								title="YouTube video player" frameborder="0"
+							<iframe width="560" class="showcase-box" height="315"
+								src="https://www.youtube.com/embed/7NBoqxUHFrE" title="YouTube video player"
+								frameborder="0"
 								allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
 								allowfullscreen></iframe>
 
@@ -104,35 +115,79 @@
 								from Aalto University in 2013.
 							</p>
 
-							<iframe width="560" class="showcase-box" height="315" src="https://www.youtube.com/embed/J2fUFyAZN8g"
-								title="YouTube video player" frameborder="0"
+							<iframe width="560" class="showcase-box" height="315"
+								src="https://www.youtube.com/embed/J2fUFyAZN8g" title="YouTube video player"
+								frameborder="0"
 								allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
 								allowfullscreen></iframe>
-							
-							<p class="video-p"> Below are some pictures of the device in various stages of use. 
-								Also images of the produced metallic glass. Inside the chamber Titanium is melted to purify 
-								the chamber before the Zr-based alloy is alloyed and cast. More details about the measurements and 
+
+							<p class="video-p">
+
+								I trained stable diffusion with my selfies, so I can produce artificial selfies.
+								It took few hours to take enough pictures and prime the pre-trained model to
+								know me from a specific word (ernoo) in the prompt. I used Google Colab for the
+								training. Some of the selfies are so good people think they are real photos.
+							</p>
+
+							<div class="swiper-container">
+								<!-- Slider main container -->
+								<div class="swiper">
+									<!-- Additional required wrapper -->
+									<div class="swiper-wrapper">
+										<!-- Slides -->
+										<div class="swiper-slide"><img class="swiperImage"
+												src="images/sliderImages/001.png"> </img> </div>
+										<div class="swiper-slide"><img class="swiperImage"
+												src="images/sliderImages/002.png"> </img> </div>
+										<div class="swiper-slide"><img class="swiperImage"
+												src="images/sliderImages/003.png"> </img> </div>
+										<div class="swiper-slide"><img class="swiperImage"
+												src="images/sliderImages/004.png"> </img> </div>
+									</div>
+									<!-- If we need pagination -->
+									<div class="swiper-pagination"></div>
+
+									<!-- If we need navigation buttons -->
+									<div class="swiper-button-prev"></div>
+									<div class="swiper-button-next"></div>
+
+									<!-- If we need scrollbar -->
+									<div class="swiper-scrollbar"></div>
+								</div>
+							</div>
+
+
+
+							<p class="video-p"> Below are some pictures of the device in various stages of use.
+								Also images of the produced metallic glass. Inside the chamber Titanium is melted to
+								purify
+								the chamber before the Zr-based alloy is alloyed and cast. More details about the
+								measurements and
 								data analysis can be found in the <a href="Thesis.pdf">thesis</a>.</p>
 							<img class="showcase-box" src="images/casting.png" alt="casting" width="560" height="315">
 
 							<p class="video-p">
-								One of my my first commercial programming jobs was this musical edutainment game 
-								that used pitch detection for game control. The game was originally about neural network 
-								produced accompaniment notes. There were three orchestras with different musical 
-								instruments. 
-								
-								Later we added three sub games. In abduction game the user ended up playing the 
-								melody track of the song, when playing well. Another of the sub games was one of the 
-								first singing games in the world. The game was published in Dezember 2000 as a CD-Rom 
-								in Finland with the name SoittoPeli. It was <a href="images/HS2001.pdf">reported</a> 
-								in Helsingin Sanomat newspaper in January 2001. Later the same singing game was separated 
-								into its own product and published in 2003 as STARAOKE in collaboration with Intervisio 
-								to produce the TV-format of the same name that much later ended up winning a technical Emmy award.
-								All the employees were caricatured in the game, apparently I was the bear that gets really excited.  
+								One of my my first commercial programming jobs was this musical edutainment game
+								that used pitch detection for game control. The game was originally about neural network
+								produced accompaniment notes. There were three orchestras with different musical
+								instruments.
+
+								Later we added three sub games. In abduction game the user ended up playing the
+								melody track of the song, when playing well. Another of the sub games was one of the
+								first singing games in the world. The game was published in Dezember 2000 as a CD-Rom
+								in Finland with the name SoittoPeli. It was <a href="images/HS2001.pdf">reported</a>
+								in Helsingin Sanomat newspaper in January 2001. Later the same singing game was
+								separated
+								into its own product and published in 2003 as STARAOKE in collaboration with Intervisio
+								to produce the TV-format of the same name that much later ended up winning a technical
+								Emmy award.
+								All the employees were caricatured in the game, apparently I was the bear that gets
+								really excited.
 							</p>
-								<img class="showcase-box" src="images/soittopeli.png" alt="soittopeli" width="560" height="315">. 
-							 
-							
+							<img class="showcase-box" src="images/soittopeli.png" alt="soittopeli" width="560"
+								height="315">.
+
+
 
 
 						</section>
@@ -175,6 +230,8 @@
 	<script src="assets/js/breakpoints.min.js"></script>
 	<script src="assets/js/util.js"></script>
 	<script src="assets/js/main.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+	<script src="assets/js/swiperInitialization.js"></script>
 
 </body>
 
