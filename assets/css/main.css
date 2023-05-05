@@ -53,8 +53,9 @@ footer, header, hgroup, menu, nav, section {
 }
 .swiper-container{
 	max-width: 512px;
-	max-height: auto;	
+	max-height: 512px;	
 	min-width: 256px;
+	min-height: 256px;
 	margin-left: 0%;	
 }
 .swiper {
