@@ -36,20 +36,24 @@ footer, header, hgroup, menu, nav, section {
 }
 .video-p{
 	margin-top: 5%;
+	max-width: 70%;
 }
 
 .showcase-img{
 	max-width: 60%;
 	height: auto;
+	min-width: 512px;
+	min-height: 512px;
 }
 .showcase-box{
 	max-width: 60%;
 	height: auto;
-	min-width: 512px;	
+	min-width: 512px;
+	min-height: 384px;	
 }
 .swiper-container{
-	max-width: 512px;
-	height: auto;	
+	max-width: 60%;
+	max-height: auto;	
 	min-width: 512px;
 	margin-left: 0%;
 	
