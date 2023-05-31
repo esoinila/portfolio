@@ -2,10 +2,23 @@
 
 const projectRows = [
     {
+        "name": "Freely hosted reservation system for a roleplaying convention",
+        "company": "",
+        "customer": "",
+        "period": "2023",
+        "description":  "Serverless NodeJS with Atlas MongoDB backend for free hosting. Idea is to provide simple freely hosted tool for organizing roleplaying meetings. Conventions-Games-Signups combination. Repo will be opensource. Demosite link is provided below.",
+        "tools": "VSCode, NodeJS, MongoDB, JavaScript, Git, (Maybe React later)",
+        "role": "",
+        "responsibilityareas": "",
+        "image_src": "images/con_planner.png",
+        "link": "https://library-rkgu.onrender.com/con",
+    },
+
+    {
         "name": "Re-training Stable diffusion with selfies to produce selfies",
         "company": "Hobby project",
         "customer": "Customer 1",
-        "period": "2019–2020",
+        "period": "2023",
         "description": "Re-training stable diffusion 1.5 with own pictures to make realistic fake selfie images.",
         "tools": "Google Colab, Automatic111, PyTorch, Diffucers-library, GitHub",
         "role": "",
@@ -380,10 +393,6 @@ const projectRows = [
 
 
 
-
-
-
-
 ]
 
 const insertTableCells = () => {
@@ -420,8 +429,6 @@ const insertTableCells = () => {
             innerHtml += '<h5 class="table-h5">Role</h5>';
             innerHtml += '<p class="table-p">' + row.role + '</p>';
         }
-
-
 
         innerHtml += '<h5 class="table-h5">Tools</h5>';
         innerHtml += '<p class="table-p">' + row.tools + '</p>';
