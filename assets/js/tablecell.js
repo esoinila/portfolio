@@ -6,7 +6,7 @@ const projectRows = [
         "company": "",
         "customer": "",
         "period": "2023",
-        "description":  "Serverless NodeJS with Atlas MongoDB backend for free hosting. Idea is to provide simple freely hosted tool for organizing roleplaying meetings. Conventions-Games-Signups combination. Repo will be opensource. Demosite link is provided below.",
+        "description":  "Serverless NodeJS with Atlas MongoDB backend for free hosting. Idea is to provide simple freely hosted tool for organizing roleplaying meetings. Conventions-Games-Signups combination. Repo will be opensource. Demosite link is provided here.",
         "tools": "VSCode, NodeJS, MongoDB, JavaScript, Git, (Maybe React later)",
         "role": "",
         "responsibilityareas": "",
