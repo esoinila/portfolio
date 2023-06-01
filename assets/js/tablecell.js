@@ -12,6 +12,7 @@ const projectRows = [
         "responsibilityareas": "",
         "image_src": "images/con_planner.png",
         "link": "https://library-rkgu.onrender.com/con",
+        "repo": "https://github.com/esoinila/con-planner",
     },
 
     {
@@ -417,7 +418,10 @@ const insertTableCells = () => {
         innerHtml += '<p class="table-p">' + row.description;
 
         if(row.link != ""){
-            innerHtml += '<a href="' + row.link + '"> Link </a>';
+            innerHtml += ' <a href="' + row.link + '"> Demo Link </a> ' + ' ';
+        }
+        if('repo' in row && row.repo != ""){
+            innerHtml += ' <a href="' + row.repo + '"> Repo Link </a> ' + ' ';
         }
         innerHtml += '</p>';
 
