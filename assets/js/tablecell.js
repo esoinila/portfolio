@@ -39,6 +39,22 @@ const projectRows = [
         "image_src": "",
         "link": "",
     },
+
+    {
+        "name": "Zombie game with UE5",
+        "company": "Hobby project",
+        "customer": "",
+        "period": "7/2022 – 8/2022",
+        "description": "I needed to learn Unreal Engine 5. So I combined my favorite Zombie game tutorials into one combination I liked. There is a repo and a link to video of the gameplay.",
+        "tools": "Unreal Engine 5, Visual Studio",
+        "role": "",
+        "responsibilityareas": "",
+        "image_src": "images/zombies.png",
+        "link": "https://youtu.be/Eu39aQ-dCTQ",
+        "repo": "https://github.com/esoinila/BP_comm"
+    },
+
+
     {
         "name": "Visualizing 3D Data from Point Distance Information with multidimensional scaling-algorithm (MDS) in Python",
         "company": "Hobby project",
