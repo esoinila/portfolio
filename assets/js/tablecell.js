@@ -2,6 +2,34 @@
 
 const projectRows = [
     {
+        "name": "Various Data Integration Projects",
+        "company": "Prog-IT",
+        "customer": "",
+        "period": "8/2023 - 3/2024",
+        "description":  "Various integration, (ETL) projects in Azure. Development of API's (REST & SOAP). Moving and transforming data in the cloud.",
+        "tools": "ASP NET Core, Azure SQL, SOAP & REST API's, Azure Data Factory",
+        "role": "Developer",
+        "responsibilityareas": "",
+        "image_src": "",
+        "link": "",
+        "repo": "",
+    },
+
+    {
+        "name": "Contract Content System Web Page Maintenance and Development",
+        "company": "Prog-IT",
+        "customer": "",
+        "period": "8/2023 - 3/2024",
+        "description":  "Contract content management and edit web page. Users can use existing good legal contract texts and tailor them for their own agreements.",
+        "tools": "ASP NET Framework, EF, Azure SQL Server, Azure App Service, Azure DevOps, Git, JavaScript, jQuery, Bootstrap",
+        "role": "Developer",
+        "responsibilityareas": "",
+        "image_src": "",
+        "link": "",
+        "repo": "",
+    },
+
+    {
         "name": "Freely hosted reservation system for a roleplaying convention",
         "company": "",
         "customer": "",
