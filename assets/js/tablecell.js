@@ -1,6 +1,45 @@
 const projectRows = [
     {
-        "name": "Contract Content Management and Editing Framework (AFF)",
+        "name": "Energy Infrastructure LLM Data Search RAG AI Solution, (Production)",
+        "company": "Prog-IT",
+        "customer": "Confidential",
+        "period": "1/2024 - Present",
+        "description": "Production implementation of RAG-based AI assistant using Azure AI Search and GPT-4o for energy sector documentation. Handles complex regulatory documents with vector search (ada-002 embeddings) and citation generation.",
+        "tools": "Azure AI Studio, .NET Core, Azure AI Search, GPT-4o, Ada-002 embeddings, Azure App Service, Azure Blob Storage",
+        "role": "AI Solution Architect",
+        "responsibilityareas": "System architecture, performance optimization, security compliance, production deployment",
+        "image_src": "",
+        "link": "",
+        "repo": ""
+    },
+    {
+        "name": "Energy Infrastructure LLM Data Search RAG AI Solution, (POC)",
+        "company": "Prog-IT",
+        "customer": "Confidential",
+        "period": "11/2023 - 12/2023",
+        "description": "Proof-of-concept for regulatory document chatbot using RAG architecture. Demonstrated document ingestion pipeline with Azure AI Search and GPT-4 integration for natural language queries.",
+        "tools": "Azure AI Search, .NET Core, Python, GPT-4, Azure Blob Storage, Azure App Service",
+        "role": "Lead Developer",
+        "responsibilityareas": "POC development, technical demonstrations, architecture design",
+        "image_src": "",
+        "link": "",
+        "repo": ""
+    },
+    {
+        "name": "Azure RAG LLM Data Search Prototype",
+        "company": "Prog-IT",
+        "customer": "Internal R&D",
+        "period": "9/2023 - 10/2023",
+        "description": "Prototype development of RAG framework for energy documentation using GPT-4o and Azure AI Search...",
+        "tools": "Azure AI Studio, .NET Core, Azure AI Search, GPT-4o, Ada-002 embeddings, Azure App Service, Azure Blob Storage",
+        "role": "AI Solution Architect",
+        "responsibilityareas": "System architecture, performance optimization, security compliance, prototype development",
+        "image_src": "",
+        "link": "",
+        "repo": ""
+    },
+    {
+        "name": "Contract Content Management and Editing Framework",
         "company": "Prog-IT",
         "customer": "Confidential",
         "period": "8/2023 - Present",
@@ -13,33 +52,18 @@ const projectRows = [
         "repo": ""
     },
     {
-        "name": "Various Data Integration Projects",
+        "name": "Client Data Integration Solutions",
         "company": "Prog-IT",
-        "customer": "",
-        "period": "8/2023 - 3/2024",
-        "description":  "Various integration, (ETL) projects in Azure. Development of API's (REST & SOAP). Moving and transforming data in the cloud.",
-        "tools": "ASP NET Core, Azure SQL, SOAP & REST API's, Azure Data Factory",
-        "role": "Developer",
-        "responsibilityareas": "",
+        "customer": "Confidential",
+        "period": "8/2023 - Present",
+        "description": "Development of custom ETL pipelines and API integrations for external clients across various industries. Implemented cloud-based data solutions handling sensitive customer data with strict compliance requirements.",
+        "tools": "ASP.NET Core, Azure Data Factory, REST/SOAP APIs, Azure SQL, Azure DevOps",
+        "role": "Integration Developer",
+        "responsibilityareas": "Client requirements analysis, secure data pipeline design, API development, cloud deployment",
         "image_src": "",
         "link": "",
-        "repo": "",
+        "repo": ""
     },
-
-    {
-        "name": "Contract Content System Web Page Maintenance and Development",
-        "company": "Prog-IT",
-        "customer": "",
-        "period": "8/2023 - 3/2024",
-        "description":  "Contract content management and edit web page. Users can use existing good legal contract texts and tailor them for their own agreements.",
-        "tools": "ASP NET Framework, EF, Azure SQL Server, Azure App Service, Azure DevOps, Git, JavaScript, jQuery, Bootstrap",
-        "role": "Developer",
-        "responsibilityareas": "",
-        "image_src": "",
-        "link": "",
-        "repo": "",
-    },
-
     {
         "name": "Freely hosted reservation system for a roleplaying convention",
         "company": "",
