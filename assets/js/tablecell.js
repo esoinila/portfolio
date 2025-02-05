@@ -13,19 +13,18 @@ const projectRows = [
         "repo": ""
     },
     {
-        "name": "Various Data Integration Projects",
+        "name": "Client Data Integration Solutions",
         "company": "Prog-IT",
-        "customer": "",
-        "period": "8/2023 - 3/2024",
-        "description":  "Various integration, (ETL) projects in Azure. Development of API's (REST & SOAP). Moving and transforming data in the cloud.",
-        "tools": "ASP NET Core, Azure SQL, SOAP & REST API's, Azure Data Factory",
-        "role": "Developer",
-        "responsibilityareas": "",
+        "customer": "Confidential",
+        "period": "8/2023 - Present",
+        "description": "Development of custom ETL pipelines and API integrations for external clients across various industries. Implemented cloud-based data solutions handling sensitive customer data with strict compliance requirements.",
+        "tools": "ASP.NET Core, Azure Data Factory, REST/SOAP APIs, Azure SQL, Azure DevOps",
+        "role": "Integration Developer",
+        "responsibilityareas": "Client requirements analysis, secure data pipeline design, API development, cloud deployment",
         "image_src": "",
         "link": "",
-        "repo": "",
+        "repo": ""
     },
-
     {
         "name": "Contract Content System Web Page Maintenance and Development",
         "company": "Prog-IT",
