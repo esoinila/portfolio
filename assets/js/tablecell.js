@@ -26,6 +26,19 @@ const projectRows = [
         "repo": ""
     },
     {
+        "name": "Azure RAG Framework Prototype",
+        "company": "Prog-IT",
+        "customer": "Internal R&D",
+        "period": "9/2023 - 10/2023",
+        "description": "Prototype development of RAG framework for energy documentation using GPT-4o and Azure AI Search...",
+        "tools": "Azure AI Studio, .NET Core, Azure AI Search, GPT-4o, Ada-002 embeddings, Azure Kubernetes Service",
+        "role": "AI Solution Architect",
+        "responsibilityareas": "System architecture, performance optimization, security compliance, prototype development",
+        "image_src": "",
+        "link": "",
+        "repo": ""
+    },
+    {
         "name": "Contract Content Management and Editing Framework",
         "company": "Prog-IT",
         "customer": "Confidential",
