@@ -1,6 +1,17 @@
-
-
 const projectRows = [
+    {
+        "name": "Contract Content Management and Editing Framework (AFF)",
+        "company": "Prog-IT",
+        "customer": "Confidential",
+        "period": "8/2023 - Present",
+        "description": "Full stack development of enterprise contract content management system using .NET Framework and Entity Framework. Web-based solution for legal document customization and version control.",
+        "tools": ".NET Framework, Entity Framework, Azure SQL Server, Azure App Service, REST API, JavaScript, jQuery, Bootstrap",
+        "role": "Senior Full Stack Developer",
+        "responsibilityareas": "Backend development, API integration, database design, Azure deployment",
+        "image_src": "",
+        "link": "",
+        "repo": ""
+    },
     {
         "name": "Various Data Integration Projects",
         "company": "Prog-IT",
