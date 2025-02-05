@@ -1,6 +1,6 @@
 const projectRows = [
     {
-        "name": "Contract Content Management and Editing Framework (AFF)",
+        "name": "Contract Content Management and Editing Framework",
         "company": "Prog-IT",
         "customer": "Confidential",
         "period": "8/2023 - Present",
