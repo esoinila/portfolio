@@ -3,7 +3,7 @@ const projectRows = [
         "name": "IoT Workshop Machine Monitoring System using RuuviTags + Ruuvi Gateway",
         "company": "Prog-IT",
         "customer": "Confidential",
-        "period": "10/2023",
+        "period": "3/2025 - Present",
         "description": "Developed a system using RuuviTags sensors and Ruuvi Gateway to monitor and determine which workshop machines are operational. The solution includes real-time data collection from IoT sensors with a .NET Core backend for data processing and storage.",
         "tools": "Dotnet Core, Entity Framework Code First with migrations, Visual Studio, MS SQL Server, RuuviTags, Ruuvi Gateway",
         "role": "Lead Developer",
