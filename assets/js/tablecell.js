@@ -1,13 +1,26 @@
 const projectRows = [
     {
+        "name": "IoT Workshop Machine Monitoring System using RuuviTags + Ruuvi Gateway",
+        "company": "Prog-IT",
+        "customer": "Confidential",
+        "period": "10/2023",
+        "description": "Developed a system using RuuviTags sensors and Ruuvi Gateway to monitor and determine which workshop machines are operational. The solution includes real-time data collection from IoT sensors with a .NET Core backend for data processing and storage.",
+        "tools": "Dotnet Core, Entity Framework Code First with migrations, Visual Studio, MS SQL Server, RuuviTags, Ruuvi Gateway",
+        "role": "Lead Developer",
+        "responsibilityareas": "Development and architecture design of the entire solution",
+        "image_src": "",
+        "link": "",
+        "repo": ""
+    },
+    {
         "name": "Energy Infrastructure LLM Data Search RAG AI Solution, (Production)",
         "company": "Prog-IT",
         "customer": "Confidential",
         "period": "1/2024 - Present",
         "description": "Production implementation of RAG-based AI assistant using Azure AI Search and GPT-4o for energy sector documentation. Handles complex regulatory documents with vector search (ada-002 embeddings) and citation generation.",
-        "tools": "Azure AI Studio, .NET Core, Azure AI Search, GPT-4o, Ada-002 embeddings, Azure App Service, Azure Blob Storage",
+        "tools": "Azure AI Studio, .NET Core, Azure AI Search, GPT-4o, Ada-002 embeddings, Azure App Service, Azure Blob Storage, Vue, Bootstrap",
         "role": "AI Solution Architect",
-        "responsibilityareas": "System architecture, performance optimization, security compliance, production deployment",
+        "responsibilityareas": "AI & Front-end development",
         "image_src": "",
         "link": "",
         "repo": ""
@@ -20,7 +33,7 @@ const projectRows = [
         "description": "Proof-of-concept for regulatory document chatbot using RAG architecture. Demonstrated document ingestion pipeline with Azure AI Search and GPT-4 integration for natural language queries.",
         "tools": "Azure AI Search, .NET Core, Python, GPT-4, Azure Blob Storage, Azure App Service",
         "role": "Lead Developer",
-        "responsibilityareas": "POC development, technical demonstrations, architecture design",
+        "responsibilityareas": "Architecture design for AI system",
         "image_src": "",
         "link": "",
         "repo": ""
