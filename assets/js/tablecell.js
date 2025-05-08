@@ -1,5 +1,18 @@
 const projectRows = [
     {
+        "name": "LLM RAG Based Agentic ChatBot for Commercial Customer Website",
+        "company": "Prog-IT",
+        "customer": "Confidential",
+        "period": "4/2025 - Present",
+        "description": "Implementing an Actor-Critic AI Agent setup, where data validity is checked before andwering to user. As it is about competition rules, the RAG source data updating is also important. Known frequent questions are detected and answered from Azure Language Studio trained custom neural network intent detection. ",
+        "tools": "Dotnet Core, Azure AI Foundry, Azure Language Studio, Azure OpenAI, Azure AI Search, Azure App Service, Azure Blob Storage",
+        "role": "Neural network training and performance evaluation, Lead Developer",
+        "responsibilityareas": "CLU Neural network training an evaluation, Development and architecture design of the entire solution",
+        "image_src": "",
+        "link": "",
+        "repo": ""
+    },
+    {
         "name": "IoT Workshop Machine Monitoring System using RuuviTags + Ruuvi Gateway",
         "company": "Prog-IT",
         "customer": "Confidential",
