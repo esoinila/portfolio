@@ -1,5 +1,18 @@
 const projectRows = [
     {
+        "name": "Publication-AI-Assistant",
+        "company": "Prog-IT",
+        "customer": "Prog-IT",
+        "period": "10/2025 - Present",
+        "description": "Intelligent news writing assistant for SharePoint that helps employees create company announcements through conversation with AI. The system uses two AI agents (writer and editor) that collaborate to produce quality-assured content, learning from past publications to maintain consistent style. Built with SharePoint Framework frontend and .NET backend, utilizing Azure OpenAI, Azure AI Search for context retrieval, and deployed as containerized application with automated deployment pipeline.",
+        "tools": ".NET 9, SharePoint Framework, React, TypeScript, Microsoft Semantic Kernel, Azure OpenAI, Azure AI Search, Azure Container Registry, Azure App Service, Docker, GitHub Actions, PnPjs, Microsoft Graph API, Azure Blob Storage",
+        "role": "Full Stack Developer, AI Solution Architect, Lead Developer",
+        "responsibilityareas": "Multi-agent system design and implementation, SharePoint integration, Azure infrastructure setup, CI/CD pipeline configuration, Development and architecture design of the entire solution",
+        "image_src": "",
+        "link": "",
+        "repo": ""
+    },
+    {
         "name": "LLM RAG Based Agentic ChatBot for Commercial Customer Website",
         "company": "Prog-IT",
         "customer": "Confidential",
